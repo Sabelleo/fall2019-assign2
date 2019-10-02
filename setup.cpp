@@ -133,6 +133,10 @@ char ** setup::fileBuild()
       }
       file.close();
   }
+  else
+  {
+    cout << "Your file could not be opened." << endl;
+  }
   return initialB;
 }
 
